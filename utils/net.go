@@ -97,29 +97,3 @@ func GetPidByPort(port string) (int, string, error) {
 		return i, str, nil
 	}
 }
-
-// func main() {
-// 	ip := "192.168.0.1"
-// 	ipInt := InetIP2Int(ip)
-
-// 	fmt.Printf("convert string ip [%s] to int: %d\n", ip, ipInt)
-// 	fmt.Printf("convert int ip [%d] to string: %s\n", ipInt, InetInt2Ip(ipInt))
-
-// 	ip = "192.168.0.2"
-// 	ipInt = InetIP2Int(ip)
-
-// 	fmt.Printf("convert string ip [%s] to int: %d\n", ip, ipInt)
-// 	fmt.Printf("convert int ip [%d] to string: %s\n", ipInt, InetInt2Ip(ipInt))
-
-// 	ip = "192.168.0.255"
-// 	ipInt = InetIP2Int(ip)
-
-// 	fmt.Printf("convert string ip [%s] to int: %d\n", ip, ipInt)
-// 	fmt.Printf("convert int ip [%d] to string: %s\n", ipInt, InetInt2Ip(ipInt))
-
-// 	ip = "192.168.1.0"
-// 	ipInt = InetIP2Int(ip)
-
-// 	fmt.Printf("convert string ip [%s] to int: %d\n", ip, ipInt)
-// 	fmt.Printf("convert int ip [%d] to string: %s\n", ipInt, InetInt2Ip(ipInt))
-// }

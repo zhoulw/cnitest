@@ -6,11 +6,11 @@ import (
 	"os"
 )
 
-const DEFAULT_LOG_PATH = "/root/ding/go/src/simple-k8s-cni/test-cni.log"
+const DEFAULT_LOG_PATH = "/var/log/cnitest/test-cni.log"
 
 var CURRENT_LOG_PATH = os.Getenv("TEST_CNI_LOG_PATH")
 
-const DEFAULT_LOG_ERROR_PATH = "/root/ding/go/src/simple-k8s-cni/test-cni.log"
+const DEFAULT_LOG_ERROR_PATH = "/var/log/cnitest//test-cni.log"
 
 var CURRENT_LOG_ERROR_PATH = os.Getenv("TEST_CNI_LOG_ERROR_PATH")
 
